@@ -22,6 +22,7 @@ public class App{
     }
 
     void removeNamePosition(int position){
+        listNames.remov
 
     }
 }
