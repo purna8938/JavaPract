@@ -1,3 +1,4 @@
+package PurnaCollections;
 
 import java.util.*;
 
@@ -22,8 +23,4 @@ public class App{
         }
     }
 
-    void removeNamePosition(int position){
-        listNames.remov
-
-    }
 }
