@@ -1,9 +1,27 @@
 import java.util.ArrayList;
-public class Sai {
+import java.util.Collections;
+import java.util.*;
+
+public class Sai extends java.util.ArrayList<Integer>{
     static ArrayList<String> listNames = new ArrayList<>();
-    static ArrayList<Integer> names = new ArrayList<>();
-    static ArrayList nameList = new ArrayList();
-    public static void main(String[] args){
+
+
+    public static void main(String[] args) {
+        /*//object for Arraylist
+        ArrayList nameList = new ArrayList();
+        //create object for ArrayList for only integer
+        Sai names = new Sai();*/
+        StringBuffer sb = new StringBuffer("Hello");
+        sb.append(1);
+        sb.append("str");
+        System.out.println(sb);
+        StringBuffer yt = new StringBuffer(10);
+        yt.insert(0, "sai");
+        int i = yt.indexOf("a");
+        System.out.println(i);
+
+/*
+
         listNames.add("chaand");
         listNames.add("sai");
         listNames.add("kiran");
@@ -12,12 +30,19 @@ public class Sai {
         listNames.add("soumith");
         listNames.add("Ajay");
         listNames.add("Srikanth");
-        names.add(10);
-        names.add(12);
+
+        System.out.println(listNames);
+
+*/
+
+
+        /*names.add(10);
+        names.add(31);
         names.add(13);
         nameList.add("ss");
         nameList.add("kk");
         nameList.add(11);
+        Collections.sort(names);
         System.out.println("size of the collection: "+nameList.size());
 
         //nameList.addAll(listNames);
@@ -45,6 +70,8 @@ public class Sai {
         System.out.println(nameList.lastIndexOf("kk"));
         System.out.println(nameList.indexOf("kk"));
         System.out.println(nameList);
+        names.removeRange(1,3);
+        System.out.println(names);
 
 
     }
@@ -60,6 +87,7 @@ public class Sai {
 
     void removeByName(int name){
         listNames.remove(name);
+    }*/
     }
 
 }
